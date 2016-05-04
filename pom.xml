@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>_04_Provider_SPIs</module>
+        <module>_15_DirectAccessGrants</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>Keycloak</artifactId>
@@ -27,5 +28,23 @@
             <artifactId>keycloak-events-api</artifactId>
             <version>1.6.0.Final</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-spring-boot-adapter</artifactId>
+            <version>1.6.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-tomcat8-adapter</artifactId>
+            <version>1.6.0.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+
     </dependencies>
 </project>
